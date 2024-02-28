@@ -11,7 +11,7 @@ import { FaCheck } from "react-icons/fa";
 import "./Placements.css";
 import "./NewCourses.css";
 
-const newCourses = ({ data }) => {
+const NewCourses = ({ data }) => {
   const slider = useRef(null);
   function SampleNextArrow(props) {
     const { className, style, onClick } = props;
