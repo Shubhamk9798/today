@@ -1,0 +1,42 @@
+.main-bar {
+  display: flex;
+  width: 600px;
+}
+.element-comp {
+  width: 100px;
+  height: 100px;
+  margin: 0px 10px;
+}
+.ccompany-main {
+  width: 50%;
+}
+.flex-comp {
+  display: flex;
+  margin-top: 100px;
+  gap: 30px;
+}
+.c-Tag {
+  font-size: 36px;
+  font-weight: 900;
+  align-items: center;
+  margin: auto auto;
+}
+.comp {
+  color: chocolate;
+}
+
+@media only screen and (max-width: 480px) {
+  .flex-comp {
+    display: block;
+  }
+  .c-Tag {
+    width: 320px;
+    align-items: center;
+    margin: 0px auto 50px 20px;
+    font-weight: 700;
+  }
+  .ccompany-main {
+    width: 100%;
+    overflow: hidden;
+  }
+}

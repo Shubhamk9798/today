@@ -1,0 +1,116 @@
+.review-i {
+  width: 50px;
+  padding-top: 10px;
+  margin-left: 20px;
+}
+.wrapper-top {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin: 0px 210px;
+  background-color: rgb(221, 135, 21);
+  padding: 10px;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  width: 300px;
+}
+.name-rev {
+  font-family: poppins;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  margin: 0px 20px;
+  color: aliceblue;
+}
+.outline-card {
+  margin: 10px auto;
+  background-color: rgb(230, 228, 228);
+  height: 350px;
+  width: 800px;
+  border-radius: 75px;
+  padding: 30px;
+}
+.review-r {
+  font-size: 14px;
+  flex-wrap: wrap;
+  width: 450px;
+  align-items: center;
+  margin: 10px auto;
+}
+.star-r {
+  width: 50px;
+  align-items: center;
+  text-align: center;
+  margin: 10px auto;
+}
+.c-heading {
+  align-items: center;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  margin: 50px;
+}
+.more-reviews {
+  width: fit-content;
+  background-color: #dd8715;
+  padding: 10px 20px;
+  border-radius: 25px;
+  margin: 10px auto;
+}
+.more-reviews:hover {
+  background-color: #cc780b;
+  color: white;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+@media only screen and (max-width: 480px) {
+  .review-i {
+    width: 50px;
+    padding-top: 10px;
+    mix-blend-mode: color-burn;
+  }
+  .wrapper-top {
+    display: flex;
+    gap: 10px;
+    width: 200px;
+    margin: 0px auto;
+    align-items: center;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: none;
+    padding: 10px;
+  }
+  .name-rev {
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    color: aliceblue;
+  }
+  .outline-card {
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgb(230, 228, 228);
+    height: 450px;
+    width: 300px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+
+    cursor: pointer;
+  }
+  .review-r {
+    font-size: 14px;
+    flex-wrap: wrap;
+    width: 200px;
+    align-items: center;
+    margin: 10px auto;
+  }
+  .star-r {
+    width: 50px;
+    align-items: center;
+    text-align: center;
+    margin: 10px auto;
+  }
+}

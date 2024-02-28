@@ -1,0 +1,13 @@
+.subheading {
+  font-size: 22px;
+  font-weight: 500;
+  margin: 50px auto;
+}
+.course-content {
+  font-size: 18px;
+  line-height: 2.5;
+}
+.full-description {
+  font-size: 18px;
+  line-height: 2;
+}

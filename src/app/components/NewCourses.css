@@ -1,0 +1,31 @@
+.price-flex {
+  display: flex;
+  background-color: rgb(253, 253, 253);
+  justify-content: space-around;
+  padding: 5px;
+  border-radius: 6px;
+}
+.div-main-c {
+  background-color: #c6e4f1;
+  border-bottom: 1px;
+  height: 350px;
+  width: 300px;
+  padding: 10px;
+  margin: 20px auto;
+  border-radius: 12px;
+  border: 1px solid black;
+}
+.div-main-c:hover {
+  scale: 105%;
+  transition: all 0.3s ease-in-out;
+}
+.bestseller {
+  margin: 2px;
+  background-color: rgb(247, 253, 156);
+  width: 100px;
+  margin: 10px auto;
+  text-align: center;
+}
+.container-all {
+  height: 400px;
+}

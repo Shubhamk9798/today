@@ -1,0 +1,70 @@
+.card-outer-you {
+  width: 320px;
+  background-color: rgb(0, 0, 0);
+  height: 330px;
+  padding: 10px;
+  border-radius: 12px;
+  margin: 0px auto;
+}
+.youtube-thumb {
+  width: 300px;
+  height: 200px;
+  margin: 10px auto;
+  border-radius: 12px;
+}
+.heading-thumbnail {
+  width: 300px;
+  flex-wrap: wrap;
+  margin: 5px auto;
+  align-items: center;
+  color: rgb(255, 255, 255);
+}
+.heading-youtube {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  margin: 1px auto;
+}
+.y-logo {
+  width: 400px;
+  height: 100px;
+  margin: 0px auto;
+}
+.hading-main {
+  margin: 50px auto 0px auto;
+}
+.main-youtube-component {
+  background-color: rgb(212, 212, 212);
+  padding: 20px 0px 50px 0px;
+  border-radius: 12px;
+  margin: 50px auto;
+}
+
+@media only screen and (max-width: 580px) {
+  .card-outer-you {
+    width: 320px;
+    background-color: rgb(0, 0, 0);
+    height: 350px;
+    padding: 5px;
+    border-radius: 12px;
+    margin: 0px auto;
+  }
+  .youtube-thumb {
+    width: 300px;
+    height: 230px;
+    margin: 10px auto;
+    border-radius: 12px;
+  }
+  .heading-thumbnail {
+    width: 300px;
+    flex-wrap: wrap;
+    margin: 5px auto;
+    align-items: center;
+  }
+  .heading-youtube {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    margin: 1px auto;
+  }
+}

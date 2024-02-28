@@ -1,0 +1,165 @@
+.h-span {
+  color: rgb(202, 95, 8);
+}
+.hero-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.left-div {
+  margin-top: 60px;
+}
+.right-div {
+  width: 1300px;
+  margin: 50px;
+}
+.hero-Heading {
+  align-items: start;
+
+  font-size: 40px;
+  font-weight: 700;
+}
+.hero-vector {
+  width: 2000px;
+  margin-right: 100px;
+  align-items: flex-start;
+  z-index: 1;
+  background-color: #383333;
+}
+
+.text-secondary {
+  font-size: 16px;
+  text-wrap: wrap;
+  width: 80%;
+  margin-top: 30px;
+
+  color: #383333;
+  line-height: 2rem;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+.countup {
+  font-size: medium;
+  font-size: 30px;
+  color: chocolate;
+  align-items: center;
+  text-align: center;
+}
+.sub-countup {
+  justify-content: space-between;
+  font-size: medium;
+  color: aliceblue;
+  align-items: center;
+}
+.wrapper-countup {
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+
+  gap: 20px;
+  background-color: rgb(46, 36, 36);
+  border-radius: 6px;
+  margin: 30px 0px;
+}
+.column {
+  justify-content: space-between;
+
+  justify-content: center;
+}
+.last {
+  margin-bottom: 10px;
+}
+
+.whatts-app-icon {
+  width: 70px;
+  position: fixed;
+  right: 20px;
+  top: 600px;
+  z-index: 10;
+
+  cursor: pointer;
+}
+.whatts-app-icon:hover {
+  scale: 110%;
+  transition: all ease-in-out 0.3s;
+}
+@media only screen and (max-width: 580px) {
+  .hero-Heading {
+    width: 308px;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 30px;
+  }
+  .hero-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 30px;
+  }
+  .hero-vector {
+    flex-wrap: wrap;
+    width: 320px;
+    align-items: center;
+
+    margin-bottom: 20px;
+  }
+  .text-secondary {
+    font-size: 14px;
+    text-wrap: wrap;
+    width: 320px;
+    height: 120px;
+    align-items: center;
+    text-align: start;
+
+    color: #383333;
+    line-height: 1.5rem;
+    flex-wrap: wrap;
+  }
+  .wrapper-countup {
+    width: 330px;
+
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .countup {
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+  }
+  .sub-countup {
+    font-size: 12px;
+  }
+  .left-div {
+    margin: 10px auto;
+  }
+  .right-div {
+    width: 1300px;
+    margin: 20px auto;
+  }
+  .whatts-app-icon {
+    width: 70px;
+    position: fixed;
+    right: 15px;
+    top: 700px;
+    top: 600px;
+    z-index: 10;
+
+    cursor: pointer;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .whatts-app-icon {
+    width: 70px;
+    position: fixed;
+    right: 70px;
+    top: 800px;
+    z-index: 10;
+
+    cursor: pointer;
+  }
+}

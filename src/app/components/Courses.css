@@ -1,0 +1,139 @@
+.service-name {
+  color: black;
+  background-color: beige;
+}
+.course-Image {
+  align-items: center;
+  border-radius: 12px;
+}
+.title_course {
+  color: black;
+}
+.main-flex {
+  display: flex;
+  gap: 30px;
+  background-color: aliceblue;
+  justify-content: space-between;
+}
+.main-courses-anim {
+  height: 700px;
+  margin: 20px auto;
+}
+.outer-card-border {
+  background-color: rgb(230, 230, 230);
+  height: 650px;
+  width: 350px;
+  padding: 10px;
+  border-radius: 25px;
+  margin: 20px auto;
+}
+.outer-card-border:hover {
+  scale: 105%;
+  transition: 0.3s all ease-in-out;
+}
+.category-course {
+  font-size: 12px;
+  color: chocolate;
+}
+.outer-flex-category {
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+}
+.duration-course {
+  font-size: 14px;
+  margin-top: 20px;
+}
+.discrition-main {
+  padding: 10px;
+}
+.carriculam {
+  margin-top: 10px;
+  color: chocolate;
+}
+.descr {
+  padding: 10px;
+}
+.flex-curriculam {
+  display: flex;
+  gap: 10px;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+.tick {
+  align-items: center;
+  height: 20px;
+  margin: 2px;
+}
+.brochure-button {
+  padding: 7px 5px;
+  background-color: chocolate;
+  align-items: center;
+  text-align: center;
+  border-radius: 12px;
+  width: 130px;
+}
+.brochure-button-2 {
+  padding: 7px 5px;
+  background-color: chocolate;
+  align-items: center;
+  text-align: center;
+  border-radius: 12px;
+  width: 130px;
+}
+.brochure-button:hover {
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.brochure-button-2:hover {
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.flex-button {
+  display: flex;
+  margin: 0px 20px;
+  justify-content: space-between;
+  gap: 10px;
+}
+.buttons-outer-d {
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 580px) {
+  .outer-card-border {
+    background-color: rgb(230, 230, 230);
+    height: 650px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 25px;
+    align-items: center;
+    margin: 10px auto;
+  }
+  .brochure-button {
+    padding: 7px 5px;
+    background-color: chocolate;
+    align-items: center;
+    text-align: center;
+    border-radius: 12px;
+    width: 120px;
+  }
+  .brochure-button-2 {
+    padding: 7px 5px;
+    background-color: chocolate;
+    align-items: center;
+    text-align: center;
+    border-radius: 12px;
+    width: 120px;
+  }
+  .brochure-button:hover {
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  .buttons-outer-d {
+    margin-top: 30px;
+  }
+}
