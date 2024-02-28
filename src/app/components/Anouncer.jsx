@@ -8,7 +8,9 @@ const Anouncer = ({ data }) => {
       <Marquee>
         <div className="anouncer">
           {data?.map((d) => {
+     < div key ="index">
             return <h1>{d.highlighterText}</h1>;
+       </div>
           })}
         </div>
       </Marquee>
