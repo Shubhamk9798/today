@@ -116,8 +116,8 @@ const NewCourses = ({ data }) => {
                     />
                     <h1 className="heading-p">{d?.coursetitle}</h1>
                     <div className="price-flex">
-                      <s>{d?.discountedPrice}</s>
-                      <p>{d?.price}</p>
+                      <p>{d?.discountedPrice}</p>
+                      <s>{d?.price}</s>
                     </div>
                     <p className="bestseller">{d?.bestseller}</p>
                   </div>
