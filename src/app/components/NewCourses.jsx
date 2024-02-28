@@ -131,4 +131,4 @@ const NewCourses = ({ data }) => {
   );
 };
 
-export default newCourses;
+export default NewCourses;
