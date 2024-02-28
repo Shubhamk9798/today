@@ -10,10 +10,10 @@ import { Placementh } from "./components/Placementh";
 import Companies from "./components/Comanies";
 import Review from "./components/Review";
 import Upcoming from "./components/Upcoming";
-import Anouncer from "./components/anouncer";
+import Anouncer from "./components/Anouncer";
 import FAQ from "./components/Faq";
 import Contact from "../../pages/Contact";
-import NewCourses from "./components/newCourses";
+import NewCourses from "./components/NewCourses";
 import Youtube from "./components/Youtube";
 export default function Page() {
   const [data, setData] = useState();
