@@ -106,7 +106,7 @@ const NewCourses = ({ data }) => {
                   href="https://play.google.com/store/apps/details?id=co.mark.olvye"
                   target="_blank"
                 >
-                  <div className="div-main-c">
+                  <div className="div-main-c bg-white rounded-lg overflow-hidden shadow-lg transition-transform transform hover:scale-105">
                     <Image
                       alt="Office"
                       src={d?.image.url}
