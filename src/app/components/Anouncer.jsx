@@ -7,7 +7,7 @@ const Anouncer = ({ data }) => {
     <div className="main-marq">
       <Marquee>
         <div className="anouncer">
-          <h1>{data.highlighterText}</h1>;
+          <h1>{data?.highlighterText}</h1>;
         </div>
       </Marquee>
     </div>
