@@ -2,16 +2,12 @@ import React from "react";
 import Marquee from "react-fast-marquee";
 import "./Anouncer.css";
 
-const Anouncer = ({ data }) => {
+const Anouncer = ({ highlighterText }) => {
   return (
     <div className="main-marq">
       <Marquee>
         <div className="anouncer">
-          {data?.map((d) => {
-     < div key ="index">
-            return <h1>{d.highlighterText}</h1>;
-       </div>
-          })}
+          <h1>{highlighterText}</h1>;
         </div>
       </Marquee>
     </div>
