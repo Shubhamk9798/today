@@ -97,7 +97,7 @@ export default function Courses({ data }) {
           {data?.map((service) => {
             return (
               <div className="main-courses-anim" key={data?.index}>
-                <div className="outer-card-border">
+                <div className="outer-card-border bg-white rounded-lg overflow-hidden shadow-lg transition-transform transform hover:scale-105">
                   <Image
                     alt="Office"
                     src={service?.courseImage?.url}
