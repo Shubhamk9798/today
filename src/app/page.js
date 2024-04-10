@@ -10,7 +10,7 @@ import { Placementh } from "./components/Placementh";
 import Companies from "./components/Comanies";
 import Review from "./components/Review";
 import Upcoming from "./components/Upcoming";
-import Anouncer from "./components/Anouncer";
+
 import FAQ from "./components/Faq";
 import Contact from "../../pages/Contact";
 import NewCourses from "./components/NewCourses";
@@ -31,7 +31,7 @@ export default function Page() {
 
   return (
     <main className="min-h-screen">
-      <Anouncer data={data?.highlighters} />
+      
       <Home />
       <Placements data={data?.placements} />
       <NewCourses data={data?.newcourses} />
